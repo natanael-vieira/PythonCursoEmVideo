@@ -4,3 +4,5 @@ num2 = int (input("Digite outro número:\n"))
 soma = num1 + num2
 
 print('A soma vale {}!'.format(soma))
+
+print(f'A soma entre {num1} e {num2} vale {soma}!')
