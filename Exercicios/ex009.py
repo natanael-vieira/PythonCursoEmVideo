@@ -1,12 +1,11 @@
-nume1 = int(input('Digite um número inteiro qualquer: '))
-tab1 = nume1 * 1
-tab2 = nume1 * 2
-tab3 = nume1 * 3
-tab4 = nume1 * 4
-tab5 = nume1 * 5
-tab6 = nume1 * 6
-tab7 = nume1 * 7
-tab8 = nume1 * 8
-tab9 = nume1 * 9
-tab10 = nume1 * 10
-print(f'A tabuada de {nume1} é: \n {tab1}\n {tab2}\n {tab3}\n {tab4}\n {tab5}\n {tab6}\n {tab7}\n {tab8}\n {tab9}\n {tab10}\n')
+num = int(input('Digite um número inteiro qualquer: '))
+print(f'{num} X 1 = {(num * 1)} ')
+print(f'{num} X 2 = {(num * 2)} ')
+print(f'{num} X 3 = {(num * 3)} ')
+print(f'{num} X 4 = {(num * 4)} ')
+print(f'{num} X 5 = {(num * 5)} ')
+print(f'{num} X 6 = {(num * 6)} ')
+print(f'{num} X 7 = {(num * 7)} ')
+print(f'{num} X 8 = {(num * 8)} ')
+print(f'{num} X 9 = {(num * 9)} ')
+print(f'{num} X 10 = {(num * 10)} ')
