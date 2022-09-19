@@ -1,4 +1,4 @@
-dias = int(input('Porquantos dias o carro foi alugado? '))
+dias = int(input('Por quantos dias o carro foi alugado? '))
 km = float(input('Quantos quilômentros (km) o carro rodou? '))
 pagar = (dias * 60) + (km * 0.15)
 
