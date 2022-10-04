@@ -1,5 +1,4 @@
 import datetime
-from tkinter.filedialog import SaveFileDialog
 
 print('===== SERVIÇO MILITAR =====\n')
 
