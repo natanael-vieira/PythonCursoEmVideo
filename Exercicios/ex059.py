@@ -15,9 +15,11 @@ while op != 5:
         print(f'\nA MULTIPLICAÇÃO dos números {n1} e {n2} é: {(n1*n2)}\n')
     if op == 3:
         if n1 > n2:
-            print(f'\nEntre os números {n1} e {n2}: {n1} é MAIOR\n')
-        else:
-            print(f'\nEntre os números {n1} e {n2}: {n2} é MAIOR\n')
+            print(f'\nEntre os números {n1} e {n2}: {n1} é MAIOR.\n')
+        elif n1 < n2:
+            print(f'\nEntre os números {n1} e {n2}: {n2} é MAIOR.\n')
+        elif n1 == n2:
+            print(f'\nOs dois números são IGUAIS.\n')
     if op == 4:
         n1 = int(input('\nDigite outro número: '))
         n2 = int(input('Digite outro número: '))
