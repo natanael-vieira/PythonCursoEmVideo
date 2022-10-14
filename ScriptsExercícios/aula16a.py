@@ -16,3 +16,11 @@ for pos, comida in enumerate (rango):
 print('\nO almoço estava demais!\n')
 
 print(sorted(rango)) #Aqui o sorted vai ordenar a tupla em ordem alfabética/numérica, além de criar uma lista com ela
+
+a = (2, 5, 4)
+b = (5, 8, 1, 2)
+c = a + b
+
+print(c)
+print(c.count(5)) #.count mostra quantas vezes o número dentro dos parênteses aparece na tupla
+print(c.index(5)) 
