@@ -12,7 +12,7 @@ while True:
 print(f'\nForam digitados {len(list)} números')
 list.sort()
 list.reverse()
-print(f'Os números digitados em ordem decrescente foi: {list}')
+print(f'Os números digitados em ordem decrescente foram: {list}')
 
 if 5 in list:
     print('Nesta lista contém o número 5!')
