@@ -9,7 +9,7 @@ while True:
     if resp in 'Nn':
         break
 
-print(f'Foram digitados {len(list)} números')
+print(f'\nForam digitados {len(list)} números')
 list.sort()
 list.reverse()
 print(f'Os números digitados em ordem decrescente foi: {list}')
