@@ -8,7 +8,6 @@ prev['nome'] = str(input('Digite o nome do trabalhador: ')).capitalize()
 ano = int(input('Digite o ano de nascimento: '))
 
 idade = 2022 - ano
-prev['nascimento'] = ano
 prev['idade'] = idade
 
 prev['ctps'] = int(input('Digite o nº da CTPS: [0 - NÃO POSSUI] '))
@@ -22,9 +21,8 @@ else:
     anosTrab = 2022 - contr
     apos = 35 - anosTrab
     prev['contratação'] = contr
-    prev['aposenta'] = apos + idade
-
     prev['salario'] = float(input('Digite o salário: '))
+    prev['aposenta'] = apos + idade
 
     print(prev)
     print()
