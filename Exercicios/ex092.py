@@ -22,7 +22,7 @@ else:
     apos = 35 - anosTrab
     prev['contratação'] = contr
     prev['salario'] = float(input('Digite o salário: '))
-    prev['aposenta'] = apos + idade
+    prev['aposentadoria'] = apos + idade
 
     print(prev)
     print()
