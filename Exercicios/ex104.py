@@ -10,7 +10,7 @@ def leiaInt(n):
             n = num
             return n
         else:
-            print('\033[31mERRO! Digite um número válido.\033[m\n')
+            print('\033[0;35mERRO! Digite um número VÁLIDO.\033[m\n')
 
 
 
