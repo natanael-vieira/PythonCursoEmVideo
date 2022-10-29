@@ -1,9 +1,8 @@
-from datetime import datetime
-
 print('===== PRECISO VOTAR? =====\n')
 
 def votar(ano):
-    idade = datetime.now().year - ano
+    from datetime import date
+    idade = date.today().year - ano
  
     if idade < 16:
         return f'Com {idade} anos de idade NÃO VOTA!'
