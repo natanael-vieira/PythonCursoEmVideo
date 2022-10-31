@@ -33,6 +33,7 @@ while True:
     titulo('SISTEMA DE AJUDA PERSONALIZADO', 2)
     comando = str(input('Função ou Biblioteca [FIM para sair] >>> '))
     if comando.upper() == 'FIM':
+        sleep(0.8)
         break
     else:
         ajuda(comando)
