@@ -1,7 +1,15 @@
 def aumentar(preco = 0, taxa = 0, formato = False):
+    '''
+    ==> Função para calcular o aumento de um determinado preço e
+    que retorna o resultado com ou sem formatação.
+    :param preco: o preco que se quer aumentar
+    :param taxa: o percentual que se quer aplicar em cima do preco
+    :param formato: para formatar o resultado em tela ou não
+    :return: o valor reajustado retorna
+    '''
     res = preco + ((preco * taxa) / 100)
     return preco if not formato else moeda(res)
-
+    
 
 def diminuir(preco = 0, taxa = 0, formato = False):
     res = preco - ((preco * taxa) / 100)
