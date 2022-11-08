@@ -1,20 +1,20 @@
-def aumentar(n):
-    n = n + ((n * 17) / 100)
-    return n
+def aumentar(preco):
+    preco = preco + ((preco * 17) / 100)
+    return preco
 
 
-def diminuir(n):
-    n = n - ((n * 11) / 100)
-    return n
+def diminuir(preco):
+    preco = preco - ((preco * 11) / 100)
+    return preco
 
 
-def dobro(n):
-    return n * 2
+def dobro(preco):
+    return preco * 2
 
 
-def metade(n):
-    return n / 2
+def metade(preco):
+    return preco / 2
 
 
-def moeda(n):
-    return f'R$ {n:.2f}'
+def moeda(preco = 0, moeda = 'R$'):
+    return f'{moeda} {preco:.2f}'.replace('.', ',')
